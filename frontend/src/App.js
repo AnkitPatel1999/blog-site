@@ -1,8 +1,14 @@
-import './App.css';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SignUp from "./components/user/signUp/SignUp"
 
-function App() {
+const App = () => {
   return (
-    <h1>hello world</h1>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/signup" element={<SignUp />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
