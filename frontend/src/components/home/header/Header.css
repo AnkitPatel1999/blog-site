@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.signup-btn {
+  border: 2px solid #3c5a5f;
+  color: #3c5a5f;
+  border-radius: 5px;
+  padding: 10px 40px 10px 40px;
+  margin-right: 20px;
+  background: #fff;
+}
+
+.signin-btn {
+  background-color: #3c5a5f;
+  color: #fff;
+  border-radius: 5px;
+  padding: 12px 40px 12px 40px;
+}

@@ -7,6 +7,7 @@ const userActionTypes = {
   SIGNOUT_START: "SIGNOUT_START",
   SIGNOUT_SUCCESS: "SIGNOUT_SUCCESS",
   SIGNOUT_FAILURE: "SIGNOUT_FAILURE",
+  SIGNUP_POPUP:"SIGNUP_POPUP"
 };
 
 export default userActionTypes;

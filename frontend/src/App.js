@@ -1,12 +1,12 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import SignUp from "./components/user/signUp/SignUp"
+import Home from "./components/home/Home"
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/signup" element={<SignUp />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );

@@ -28,3 +28,8 @@ export const signOutFailure = (error) => ({
   type: userActionTypes.SIGNOUT_FAILURE,
   payload: error,
 });
+
+export const signUpPopup = (error) => ({
+  type: userActionTypes.SIGNUP_POPUP,
+  payload: error,
+});
